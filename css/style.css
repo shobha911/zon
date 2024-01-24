@@ -1,0 +1,912 @@
+:root {
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --secondary: #6c757d;
+    --dark: #343a40;
+    --orenge: #ca2d05;
+    --main: #17023d;
+    --black: #000
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all ease 0.2s;
+}
+
+.main-box-1 {
+    width: 100%;
+    background-color: var(--main);
+    border-right: 20px solid var(--white);
+    border-bottom: 20px solid var(--white);
+}
+
+.main-box-2 {
+    width: 100%;
+    background-color: var(--main);
+    border-left: 20px solid var(--white);
+    border-bottom: 20px solid var(--white);
+}
+
+/*----header strats----*/
+.big-head {
+    width: 100%;
+    background: linear-gradient(to right, var(--main) 65%, var(--orenge) 35%);
+    border-left: 20px solid #fff;
+    border-bottom: 20px solid #fff;
+}
+
+.navbar {
+    background: none;
+    border: none;
+}
+
+.header {
+    padding: 0px 30px 0 30px;
+}
+
+.header .logo a {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-right: 30px;
+    margin-top: 45px;
+}
+
+.header .logo a:hover {
+    color: var(--white);
+}
+
+.header #my-navbar li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 50px 23px 10px 23px;
+}
+
+.header #my-navbar .active a {
+    background-color: var(--orenge);
+    color: var(--white);
+    padding: 50px 23px 10px 23px;
+}
+
+.header #my-navbar li a:hover {
+    background-color: var(--orenge);
+    color: var(--white);
+    transition: all ease .5s;
+}
+
+.header ul li .fa {
+    font-size: 17px;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.header ul li .search {
+    margin-top: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header .right li {
+    color: var(--white);
+    font-size: 16px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+/*----header ends----*/
+/*----carousel strats----*/
+.master {
+    position: relative;
+}
+
+.banner {
+    margin-top: 50px;
+    height: 900px;
+}
+
+.banner .banner-1 h1 {
+    font-size: 120px;
+    font-weight: 700;
+    color: var(--white);
+    margin-top: 100px;
+}
+
+.banner .banner-1 p {
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 40px;
+}
+
+.banner .banner-1 p {
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.caro-btn {
+    width: 190px;
+    height: 65px;
+    background-color: var(--orenge);
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.caro-btn:hover {
+    background-color: var(--black);
+    transition: all ease 0.5s;
+}
+
+.banner .banner-2 img {
+    width: 100%;
+}
+
+.carousel-control {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 780px;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.carousel-control:hover {
+    background-color: var(--orenge);
+}
+
+.banner .left {
+    left: 0px;
+}
+
+.banner .right {
+    left: 0px;
+    top: 900px;
+}
+
+.glyphicon {
+    color: var(--black);
+}
+
+.carousel-control:hover .glyphicon {
+    color: var(--white);
+}
+
+/*----carousel ends----*/
+/*----about strats----*/
+
+.about-img {
+    padding-bottom: 60px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text h1 {
+    color: var(--white);
+    font-size: 50px;
+    margin-top: 320px;
+    font-weight: 700;
+}
+
+.about-text p {
+    color: var(--white);
+    font-size: 17px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.about-text .caro-btn {
+    width: 240px;
+}
+
+/*----ABOUT ends----*/
+/*----SERVICES strats----*/
+.aaa {
+    position: relative;
+}
+
+.services {
+    padding: 80px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services .serv-1 h1 {
+    color: var(--white);
+    font-size: 47px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services .serv-1 p {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.second-carousel {
+    margin-top: 30px;
+}
+
+.second-carousel .part-1 {
+    width: 85%;
+    margin: 0 auto;
+    background-color: var(--white);
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.second-carousel .part-1 img {
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.second-carousel .part-2 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--orenge);
+    border-radius: 10px;
+}
+
+
+.second-carousel .part-2 img {
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.services .serv-2 h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-top: 50px;
+}
+
+.services .serv-2 p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--white);
+    padding: 0 30px;
+    line-height: 25px;
+    letter-spacing: 0.5;
+    margin-top: 10px;
+}
+
+.services .serv-2 .big h2 {
+    font-size: 32px;
+}
+
+.services .serv-2 .big p {
+    font-size: 17px;
+}
+
+.services .caro-btn {
+    margin-top: 50px;
+}
+
+.servi-caro-1 {
+    position: absolute;
+    top: 850px;
+}
+
+
+/*----SERVICES ends----*/
+/*----TESTIMONIAL strats----*/
+
+.form-area {
+    border-right: 2px solid white;
+}
+
+.form-area h1,
+.testimonial h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.form-area .form {
+    width: 90%;
+    padding: 0 20px;
+    
+}
+
+#text {
+    height: 70px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: var(--dark);
+}
+
+#msg {
+    height: 180px;
+    border-radius: 0;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#send {
+    width: 220px;
+    padding: 27px 10px;
+    background-color: var(--orenge);
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 50px;
+}
+
+#send:hover {
+    background-color: var(--black);
+    transition: all ease 0.5s;
+}
+
+.testimonial {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.testimonial h1 {
+    text-align: left;
+}
+
+.testimonial .owl-caro {
+    background-color: var(--white);
+    padding: 100px 50px;
+}
+
+.testimonial .owl-caro p {
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.testimonial .owl {
+    display: flex;
+}
+
+.testimonial .owl .owl-1 {
+    width: 150px;
+    height: 150px;
+    background-color: var(--orenge);
+    position: relative;
+    top: -60px;
+    margin-left: 20px;
+}
+
+.testimonial.owl .owl-1 img {
+    position: relative;
+    top: 10px;
+}
+
+.testimonial .owl-2 h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: var(--white);
+}
+
+.testimonial .owl-2 h6 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: -10px;
+    color: var(--orenge);
+}
+
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    width: 70px;
+    height: auto;
+    background-color: var(--main);
+    color: var(--white);
+    padding: 20px;
+    font-size: 50px;
+    position: absolute;
+    border-radius: 0;
+}
+
+
+.owl-carousel .owl-nav .owl-next {
+    right: -10px;
+    top: 220px;
+}
+
+
+.owl-carousel .owl-nav .owl-next:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    right: -10px;
+    top: 150px;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.coff {
+    margin-top: -70px;
+    margin-bottom: 70px;
+}
+
+/*----TESTIMONIAL ends----*/
+/*----FOOTER strats----*/
+
+.footer h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--white);
+    margin: 60px 0;
+}
+
+.form-section {
+    border-bottom: 1px solid var(--white);
+}
+
+.form-control {
+    padding: 0;
+}
+
+.form-section h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--orenge);
+    cursor: pointer;
+}
+
+#new-enail {
+    background: none;
+    border: none;
+    font-size: 15px;
+}
+
+.footer h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer p {
+    font-size: 20px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.footer p:hover {
+    color: var(--orenge);
+}
+
+
+.footer .coffee {
+    padding-left: 40px;
+}
+
+.footer .Follow {
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+
+.footer .Follow .fa {
+    color: var(--white);
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.footer .Follow h2 {
+    color: var(--white);
+    font-size: 20px;
+    letter-spacing: 0.7;
+    margin-right: 10px;
+}
+
+.footer .para {
+    font-size: 18px;
+    color: gray;
+}
+
+.footer .para:hover {
+    color: gray;
+    cursor: auto;
+}
+
+.big-footer .red:hover {
+    cursor: pointer;
+    color: var(--orenge);
+}
+
+.big-footer {
+    position: relative;
+}
+
+.big-footer .leef {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*******FOOTER ends*****
+********************************
+*******************************
+****-MEDIA QUERY strats-*****/
+
+@media only screen and (max-width:1260px) {
+
+    .header .right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .header .right li {
+        letter-spacing: 1px;
+        line-height: 10px;
+        margin-top: -40px;
+    }
+
+    .carousel-control {
+        top: 680px;
+    }
+
+    .banner .right {
+        top: 800px;
+    }
+
+    .banner .banner-1 h1 {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .banner .banner-2 img {
+        width: 90%;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about-text h1 {
+        font-size: 45px;
+    }
+
+    .services .serv-2 h2 {
+        font-size: 25px;
+    }
+
+    .services .serv-2 p {
+        font-size: 14px;
+    }
+
+    .services .serv-2 .big h2 {
+        font-size: 30px;
+    }
+
+    .services .serv-2 .big p {
+        font-size: 16px;
+    }
+
+    .services .serv-1 h1 {
+        font-size: 44px;
+    }
+
+    .footer {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .blog-1 .date {
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+
+    .header .right {
+        display: none;
+        visibility: hidden;
+    }
+
+    .banner {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .banner .banner-2 {
+        margin-right: 0;
+    }
+
+    .banner .banner-2 img {
+        width: 100%;
+    }
+
+    .banner .banner-1 h1 {
+        font-size: 85px;
+        margin-left: 0;
+    }
+
+    .banner .banner-1 p {
+        font-size: 17px;
+    }
+
+    .banner .banner-1 .caro-btn {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .about-text h1 {
+        font-size: 45px;
+        margin-top: 220px;
+    }
+
+    .services .serv-1 h1 {
+        font-size: 40px;
+    }
+
+    .services .serv-1 p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .footer .Follow h2 {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+
+    .testimonial h1 {
+        text-align: center;
+    }
+
+    .contect {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    .header #my-navbar li a {
+        font-size: 13px;
+        padding: 50px 10px 10px 10px;
+    }
+
+    .header #my-navbar .active a {
+        padding: 50px 15px 10px 15px;
+    }
+
+    .banner .banner-1 h1 {
+        font-size: 80px;
+    }
+
+    .banner .banner-1 .caro-btn {
+        width: 120px;
+        height: 65px;
+    }
+
+    .about-text h1 {
+        font-size: 32px;
+        margin-top: 150px;
+    }
+
+    .services .serv-2 h2 {
+        font-size: 21px;
+    }
+
+    .services .serv-2 p {
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    .services .serv-2 .big h2 {
+        font-size: 26px;
+    }
+
+    .services .serv-2 .big p {
+        font-size: 15px;
+    }
+
+    .services .serv-1 h1 {
+        font-size: 38px;
+    }
+
+    .services .serv-1 p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .form-area {
+        border-right: none;
+    }
+
+    .form-area h1,
+    .testimonial h1 {
+        font-size: 35px;
+    }
+
+    .testimonial {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .footer .coffee {
+        padding-left: 0px;
+    }
+
+    .footer .Follow {
+        padding-left: 0px;
+    }
+
+    .footer .Follow h2 {
+        font-size: 15px;
+    }
+
+    .form-area .form {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .testimonial {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .header #my-navbar ul {
+        background-color: black ;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header #my-navbar ul li a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header .right li {
+        display: none;
+    }
+
+    .header ul li .search {
+        margin: 0 auto;
+    }
+
+    .header #my-navbar .active a {
+        padding: 10px;
+    }
+
+    .header .logo a {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    .banner .banner-1 h1 {
+        font-size: 60px;
+    }
+
+    .banner .banner-1 .caro-btn {
+        width: 190px;
+        height: 65px;
+        margin-right: 0px;
+    }
+
+    .banner .banner-2 img {
+        width: 80%;
+    }
+
+    .services .serv-1 h1 {
+        font-size: 32px;
+    }
+
+    .services .serv-1 p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .big-footer .leef {
+        display: none;
+    }
+
+    .form-section h4 {
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--orenge);
+        text-align: left;
+    }
+
+    .second-carousel .small {
+        display: none;
+    }
+
+    .carousel-control.left {
+        top: 980px;
+    }
+
+    .carousel-control.right {
+        top: 860px;
+    }
+
+    .banner {
+        height: 1000px;
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .about-text h1 {
+        font-size: 50px;
+        margin-top: 90px;
+    }
+
+    .services .serv-1 h1 {
+        font-size: 50px;
+    }
+
+    .servi-caro-1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .about-text h1 {
+        font-size: 30px;
+    }
+
+    .services .serv-1 h1 {
+        font-size: 30px;
+    }
+
+    .testimonial .owl-caro {
+        padding: 30px 20px;
+    }
+
+    .testimonial .owl-caro p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:385px) {
+    .foot-img img{
+        width: 80%;
+    }
+}
+/*******media query ends*******
+******************************
